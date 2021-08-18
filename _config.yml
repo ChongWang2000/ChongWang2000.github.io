@@ -17,6 +17,7 @@ repository               : "chongwang2000/chongwang2000.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
+future			 : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
@@ -42,7 +43,8 @@ staticman:
   generatedFields:
     date:
       type               : "date"
-      options:        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+      options:       
+	 format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
@@ -81,7 +83,7 @@ author:
   avatar           : "profile.png"
   bio              : "An undergrad in the School of Computer Science, BUPT."
   location         : "Beijing, China"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  #googlescholar    : "http://yourfullgooglescholarurl.com"
   email            : "2018211702@bupt.edu.cn"
   uri              :
   bitbucket        :
@@ -94,7 +96,6 @@ author:
   google_plus      :
   keybase          :
   instagram        :
-  linkedin         :
   orcid            : "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
@@ -301,3 +302,4 @@ compress_html:
   ignore:
     envs: development
 #
+# Welcome to Jekyll!
