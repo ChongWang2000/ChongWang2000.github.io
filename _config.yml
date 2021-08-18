@@ -7,7 +7,7 @@ i# Welcome to Jekyll!
 
 # Site Settings
 locale                   : "en-US"
-name                     : &name "Your Name"
+name                     : &name"Chong Wang"
 description              : &description "personal description"
 url                      : https://chongwang2000.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
