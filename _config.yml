@@ -1,4 +1,4 @@
-i# Welcome to Jekyll!
+# Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
@@ -42,8 +42,7 @@ staticman:
   generatedFields:
     date:
       type               : "date"
-      options:
-        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+      options:        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
@@ -82,7 +81,7 @@ author:
   avatar           : "profile.png"
   bio              : "An undergrad in the School of Computer Science, BUPT."
   location         : "Beijing, China"
-  #googlescholar    : "http://yourfullgooglescholarurl.com"
+  googlescholar    : "http://yourfullgooglescholarurl.com"
   email            : "2018211702@bupt.edu.cn"
   uri              :
   bitbucket        :
@@ -95,7 +94,6 @@ author:
   google_plus      :
   keybase          :
   instagram        :
-  lastfm           :
   linkedin         :
   orcid            : "http://orcid.org/yourorcidurl"
   pinterest        :
@@ -302,3 +300,4 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+#
